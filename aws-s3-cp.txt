@@ -1,0 +1,1 @@
+aws --profile=ian.harisay s3 cp --recursive . s3://apps.harisay.com/ --cache-control="max-age=600, must-revalidate"
